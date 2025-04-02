@@ -6,70 +6,84 @@ namespace App;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use App\ElektronicznyNadawca\ClassMap;
-use App\ElektronicznyNadawca\ServiceType\Service;
-use App\ElektronicznyNadawca\StructType\AddShipment;
-use App\ElektronicznyNadawca\StructType\AdresType;
-use App\ElektronicznyNadawca\StructType\EPOExtendedType;
-use App\ElektronicznyNadawca\StructType\Pocztex2021KurierType;
-use App\ElektronicznyNadawca\StructType\ZawartoscPocztex2021Type;
-use WsdlToPhp\PackageBase\AbstractSoapClientBase;
+use App\ElektronicznyNadawca\ElektronicznyNadawca;
+use App\ElektronicznyNadawca\addShipment;
+use App\ElektronicznyNadawca\adresType;
+use App\ElektronicznyNadawca\EPOExtendedType;
+use App\ElektronicznyNadawca\pocztex2021KurierType;
+use App\ElektronicznyNadawca\zawartoscPocztex2021Type;
+use SoapFault;
 
 class Test
 {
     public function test()
     {
         $options = [
-            AbstractSoapClientBase::WSDL_URL => 'https://en-testwebapi.poczta-polska.pl/websrv/en.wsdl',
-            AbstractSoapClientBase::WSDL_CLASSMAP => ClassMap::get(),
-            AbstractSoapClientBase::WSDL_LOCATION => 'https://en-testwebapi.poczta-polska.pl/websrv/en.php',
+            'url' => 'https://en-testwebapi.poczta-polska.pl/websrv/en.wsdl',
+            'location' => 'https://en-testwebapi.poczta-polska.pl/websrv/en.php',
+            'login' => 'test',
+            'password' => 'test',
         ];
 
-        $service = new Service($options);
+        $service = new ElektronicznyNadawca($options);
+
+        $przesylka = new Pocztex2021KurierType(
+            'DEB4B64EB735BCFBD19CC49B2F146E94',
+            null,
+            null,
+            '21/37',
+            null,
+            null,
+            null,
+            null,
+            null,
+            false
+        );
+
+        $adres = new adresType(
+            'Jan Stefan',
+            'Niezbędny-Zbędny-Bezużyteczny',
+            'Piekielna',
+            '666',
+            '666',
+            'Gdynia',
+            '81193',
+            'Polska',
+            '',
+            '',
+            null,
+            null,
+            null
+        );
+
+        $przesylka
+            ->setAdres($adres)
+            ->setMasa(5000)
+            ->setWartosc(100)
+            ->setFormat('S')
+            ->setEpo(
+                new EPOExtendedType(
+                    'ADMINISTRACYJNA'
+                )
+            )
+            ->setZawartosc(
+                new zawartoscPocztex2021Type(
+                    null,
+                    'Dokumenty'
+                )
+            )
+            ->setUiszczaOplate('NADAWCA');
 
         $addShipment = new AddShipment(
-            [
-                (new Pocztex2021KurierType())
-                    ->setGuid('DEB4B64EB735BCFBD19CC49B2F146E94')
-                ->setOpis('21/37')
-                ->setAdres(
-                    new AdresType(
-                        'Jan Stefan',
-                        'Niezbędny-Zbędny-Bezużyteczny',
-                        'Piekielna',
-                        '666',
-                        '666',
-                        'Gdynia',
-                        '81193',
-                        'Polska',
-                        '',
-                        '',
-                        null,
-                        null,
-                        null
-                    )
-                )
-                ->setMasa(5000)
-                ->setWartosc(100)
-                ->setFormat('S')
-                ->setEpo(
-                    new EPOExtendedType(
-                        'ADMINISTRACYJNA'
-                    )
-                )
-                ->setZawartosc(
-                    new ZawartoscPocztex2021Type(
-                        null,
-                        'Dokumenty'
-                    )
-                )
-                ->setUiszczaOplate('NADAWCA')
-            ],
+            $przesylka,
             1234
         );
 
-        $service->addShipment($addShipment);
-        var_dump($service->getLastRequest());
+        try {
+            $service->addShipment($addShipment);
+        } catch (SoapFault $fault) {
+            echo $fault->getTrace()[0]['args'][0];
+        }
     }
 }
 
