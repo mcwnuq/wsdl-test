@@ -82,7 +82,8 @@ class Test
         try {
             $service->addShipment($addShipment);
         } catch (SoapFault $fault) {
-            echo $fault->getTrace()[0]['args'][0];
+            var_dump($fault->getTrace()[0]['args'][0]);
+            var_dump($fault->getTrace()[1]['args'][1]);
         }
     }
 }
