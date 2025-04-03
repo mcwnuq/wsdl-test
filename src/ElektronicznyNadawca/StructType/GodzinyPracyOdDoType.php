@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for godzinyPracyOdDoType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GodzinyPracyOdDoType extends AbstractStructBase
+class GodzinyPracyOdDoType
 {
     /**
      * The od

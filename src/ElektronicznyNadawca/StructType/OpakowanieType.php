@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for opakowanieType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class OpakowanieType extends AbstractStructBase
+class OpakowanieType
 {
     /**
      * The opakowanieGuid

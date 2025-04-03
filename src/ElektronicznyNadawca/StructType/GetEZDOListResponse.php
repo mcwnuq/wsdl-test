@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getEZDOListResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetEZDOListResponse extends AbstractStructBase
+class GetEZDOListResponse
 {
     /**
      * The EZDOPakiet

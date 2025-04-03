@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for createShopEZwroty StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class CreateShopEZwroty extends AbstractStructBase
+class CreateShopEZwroty
 {
     /**
      * The shop

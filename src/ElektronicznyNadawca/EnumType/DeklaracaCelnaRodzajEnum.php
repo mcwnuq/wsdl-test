@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for DeklaracaCelnaRodzajEnum EnumType
  * @subpackage Enumerations
  */
-class DeklaracaCelnaRodzajEnum extends AbstractStructEnumBase
+class DeklaracaCelnaRodzajEnum
 {
     /**
      * Constant for value 'CN22'

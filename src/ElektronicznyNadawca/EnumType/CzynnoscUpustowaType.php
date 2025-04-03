@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for czynnoscUpustowaType EnumType
  * @subpackage Enumerations
  */
-class CzynnoscUpustowaType extends AbstractStructEnumBase
+class CzynnoscUpustowaType
 {
     /**
      * Constant for value 'POSORTOWANA'

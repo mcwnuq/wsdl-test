@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for zwrotPrzesylkiType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class ZwrotPrzesylkiType extends AbstractStructBase
+class ZwrotPrzesylkiType
 {
     /**
      * The przyczyna

@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for moveShipments StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class MoveShipments extends AbstractStructBase
+class MoveShipments
 {
     /**
      * The idBuforFrom

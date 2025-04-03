@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for zwrotDokumentowPaczkowaType EnumType
  * @subpackage Enumerations
  */
-class ZwrotDokumentowPaczkowaType extends AbstractStructEnumBase
+class ZwrotDokumentowPaczkowaType
 {
     /**
      * Constant for value 'EKSPRES24'

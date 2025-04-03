@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getJednostkaOrganizacyjnaResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetJednostkaOrganizacyjnaResponse extends AbstractStructBase
+class GetJednostkaOrganizacyjnaResponse
 {
     /**
      * The jednostkaOrganizacyjna

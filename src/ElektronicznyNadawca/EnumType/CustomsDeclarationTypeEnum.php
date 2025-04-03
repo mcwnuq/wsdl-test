@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for CustomsDeclarationTypeEnum EnumType
  * @subpackage Enumerations
  */
-class CustomsDeclarationTypeEnum extends AbstractStructEnumBase
+class CustomsDeclarationTypeEnum
 {
     /**
      * Constant for value 'CN22'

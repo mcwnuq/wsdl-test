@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for obszarType EnumType
  * @subpackage Enumerations
  */
-class ObszarType extends AbstractStructEnumBase
+class ObszarType
 {
     /**
      * Constant for value 'MIASTO'

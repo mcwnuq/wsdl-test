@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for terminZwrotDokumentowBiznesowaType EnumType
  * @subpackage Enumerations
  */
-class TerminZwrotDokumentowBiznesowaType extends AbstractStructEnumBase
+class TerminZwrotDokumentowBiznesowaType
 {
     /**
      * Constant for value 'LIST_ZWYKLY_PRIORYTETOWY'

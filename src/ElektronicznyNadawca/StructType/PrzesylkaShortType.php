@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for przesylkaShortType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class PrzesylkaShortType extends AbstractStructBase
+class PrzesylkaShortType
 {
     /**
      * The guid

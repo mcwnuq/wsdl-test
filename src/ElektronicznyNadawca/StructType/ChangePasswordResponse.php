@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for changePasswordResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class ChangePasswordResponse extends AbstractStructBase
+class ChangePasswordResponse
 {
     /**
      * The error

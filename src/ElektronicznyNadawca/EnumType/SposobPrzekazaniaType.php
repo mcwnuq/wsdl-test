@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for sposobPrzekazaniaType EnumType
  * @subpackage Enumerations
  */
-class SposobPrzekazaniaType extends AbstractStructEnumBase
+class SposobPrzekazaniaType
 {
     /**
      * Constant for value 'LIST_ZWYKLY_PRIOTYTET'

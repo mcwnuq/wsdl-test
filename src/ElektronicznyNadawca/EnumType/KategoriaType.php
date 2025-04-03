@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for kategoriaType EnumType
  * @subpackage Enumerations
  */
-class KategoriaType extends AbstractStructEnumBase
+class KategoriaType
 {
     /**
      * Constant for value 'EKONOMICZNA'

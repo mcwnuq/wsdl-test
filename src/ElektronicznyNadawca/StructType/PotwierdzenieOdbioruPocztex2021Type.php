@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for potwierdzenieOdbioruPocztex2021Type StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class PotwierdzenieOdbioruPocztex2021Type extends AbstractStructBase
+class PotwierdzenieOdbioruPocztex2021Type
 {
     /**
      * The ilosc

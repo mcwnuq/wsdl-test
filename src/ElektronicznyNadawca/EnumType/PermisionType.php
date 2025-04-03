@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for permisionType EnumType
  * @subpackage Enumerations
  */
-class PermisionType extends AbstractStructEnumBase
+class PermisionType
 {
     /**
      * Constant for value 'MANAGE_USERS'

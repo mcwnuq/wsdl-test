@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for obszarAdresowyResponseType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class ObszarAdresowyResponseType extends AbstractStructBase
+class ObszarAdresowyResponseType
 {
     /**
      * The isObszarMiasto

@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getKierunkiResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetKierunkiResponse extends AbstractStructBase
+class GetKierunkiResponse
 {
     /**
      * The kierunek

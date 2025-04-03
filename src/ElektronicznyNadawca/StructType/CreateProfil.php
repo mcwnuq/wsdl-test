@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for createProfil StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class CreateProfil extends AbstractStructBase
+class CreateProfil
 {
     /**
      * The profil

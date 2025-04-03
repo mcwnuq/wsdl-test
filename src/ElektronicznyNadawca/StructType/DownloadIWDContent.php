@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for downloadIWDContent StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class DownloadIWDContent extends AbstractStructBase
+class DownloadIWDContent
 {
     /**
      * The idEnvelope

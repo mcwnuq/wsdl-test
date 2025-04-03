@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getEnvelopeStatusResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetEnvelopeStatusResponse extends AbstractStructBase
+class GetEnvelopeStatusResponse
 {
     /**
      * The envelopeStatus

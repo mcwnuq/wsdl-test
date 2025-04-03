@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for deklaracjaCelna2Type StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class DeklaracjaCelna2Type extends AbstractStructBase
+class DeklaracjaCelna2Type
 {
     /**
      * The rodzaj

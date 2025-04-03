@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for setEnvelopeBuforDataNadania StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class SetEnvelopeBuforDataNadania extends AbstractStructBase
+class SetEnvelopeBuforDataNadania
 {
     /**
      * The dataNadania

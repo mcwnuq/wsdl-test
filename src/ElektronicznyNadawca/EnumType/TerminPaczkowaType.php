@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for terminPaczkowaType EnumType
  * @subpackage Enumerations
  */
-class TerminPaczkowaType extends AbstractStructEnumBase
+class TerminPaczkowaType
 {
     /**
      * Constant for value 'PACZKA_24'

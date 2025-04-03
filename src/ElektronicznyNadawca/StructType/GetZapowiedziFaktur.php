@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getZapowiedziFaktur StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetZapowiedziFaktur extends AbstractStructBase
+class GetZapowiedziFaktur
 {
     /**
      * The data

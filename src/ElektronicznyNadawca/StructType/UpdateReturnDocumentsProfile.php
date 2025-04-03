@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for updateReturnDocumentsProfile StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class UpdateReturnDocumentsProfile extends AbstractStructBase
+class UpdateReturnDocumentsProfile
 {
     /**
      * The profile

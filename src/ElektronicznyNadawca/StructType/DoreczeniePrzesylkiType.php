@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for doreczeniePrzesylkiType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class DoreczeniePrzesylkiType extends AbstractStructBase
+class DoreczeniePrzesylkiType
 {
     /**
      * The data

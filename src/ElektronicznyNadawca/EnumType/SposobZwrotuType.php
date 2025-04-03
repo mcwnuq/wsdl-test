@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for sposobZwrotuType EnumType
  * @subpackage Enumerations
  */
-class SposobZwrotuType extends AbstractStructEnumBase
+class SposobZwrotuType
 {
     /**
      * Constant for value 'LADOWO_MORSKA'

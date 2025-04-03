@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for statusAccountType EnumType
  * @subpackage Enumerations
  */
-class StatusAccountType extends AbstractStructEnumBase
+class StatusAccountType
 {
     /**
      * Constant for value 'WYLACZONY'

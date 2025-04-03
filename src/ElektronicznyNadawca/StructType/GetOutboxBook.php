@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getOutboxBook StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetOutboxBook extends AbstractStructBase
+class GetOutboxBook
 {
     /**
      * The idEnvelope

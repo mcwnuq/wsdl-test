@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for adresType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class AdresType extends AbstractStructBase
+class AdresType
 {
     /**
      * The nazwa

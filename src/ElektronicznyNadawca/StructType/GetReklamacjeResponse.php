@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getReklamacjeResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetReklamacjeResponse extends AbstractStructBase
+class GetReklamacjeResponse
 {
     /**
      * The reklamacja

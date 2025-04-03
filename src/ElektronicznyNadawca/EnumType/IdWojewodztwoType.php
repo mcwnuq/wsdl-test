@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for idWojewodztwoType EnumType
  * @subpackage Enumerations
  */
-class IdWojewodztwoType extends AbstractStructEnumBase
+class IdWojewodztwoType
 {
     /**
      * Constant for value '02'

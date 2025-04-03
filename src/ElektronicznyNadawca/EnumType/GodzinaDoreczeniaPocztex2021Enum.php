@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for godzinaDoreczeniaPocztex2021Enum EnumType
  * @subpackage Enumerations
  */
-class GodzinaDoreczeniaPocztex2021Enum extends AbstractStructEnumBase
+class GodzinaDoreczeniaPocztex2021Enum
 {
     /**
      * Constant for value 'DO_GODZ_8'

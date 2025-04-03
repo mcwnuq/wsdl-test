@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for gabarytBiznesowaType EnumType
@@ -12,7 +11,7 @@ use WsdlToPhp\PackageBase\AbstractStructEnumBase;
  * - documentation: gabaryt Maksymalne wymiary przesyłki (w cm) XS 25,0 x 20,0 x 10,0 S 30,0 x 25,0 x 15,0 M 35,0 x 30,0 x 20,0 L 45,0 x 35,0 x 25,0 XL 60,0 x 50,0 x 30,0 XXL 90,0 x 60,0 x 35,0
  * @subpackage Enumerations
  */
-class GabarytBiznesowaType extends AbstractStructEnumBase
+class GabarytBiznesowaType
 {
     /**
      * Constant for value 'XS'

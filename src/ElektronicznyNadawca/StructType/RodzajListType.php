@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for rodzajListType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class RodzajListType extends AbstractStructBase
+class RodzajListType
 {
     /**
      * The polecony

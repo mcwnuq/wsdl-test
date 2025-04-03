@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for rozstrzygniecieType EnumType
  * @subpackage Enumerations
  */
-class RozstrzygniecieType extends AbstractStructEnumBase
+class RozstrzygniecieType
 {
     /**
      * Constant for value 'UZASADNIONA'

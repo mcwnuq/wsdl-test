@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getFirmowaPocztaBook StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetFirmowaPocztaBook extends AbstractStructBase
+class GetFirmowaPocztaBook
 {
     /**
      * The idEnvelope

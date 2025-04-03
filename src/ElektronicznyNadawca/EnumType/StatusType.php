@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for statusType EnumType
  * @subpackage Enumerations
  */
-class StatusType extends AbstractStructEnumBase
+class StatusType
 {
     /**
      * Constant for value 'NIEPOTWIERDZONA'

@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getAdditionalActivitiesListResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetAdditionalActivitiesListResponse extends AbstractStructBase
+class GetAdditionalActivitiesListResponse
 {
     /**
      * The additionalActivity

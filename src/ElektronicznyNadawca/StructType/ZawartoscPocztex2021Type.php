@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for zawartoscPocztex2021Type StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class ZawartoscPocztex2021Type extends AbstractStructBase
+class ZawartoscPocztex2021Type
 {
     /**
      * The zawartoscSpecjalna

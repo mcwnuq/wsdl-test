@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for gabarytType EnumType
  * @subpackage Enumerations
  */
-class GabarytType extends AbstractStructEnumBase
+class GabarytType
 {
     /**
      * Constant for value 'GABARYT_A'

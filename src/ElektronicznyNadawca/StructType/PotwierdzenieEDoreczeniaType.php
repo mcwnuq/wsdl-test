@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for potwierdzenieEDoreczeniaType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class PotwierdzenieEDoreczeniaType extends AbstractStructBase
+class PotwierdzenieEDoreczeniaType
 {
     /**
      * The sposob

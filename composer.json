@@ -1,8 +1,7 @@
 {
     "name": "mcwnuq/wsdl-test",
     "require": {
-        "ext-soap": "*",
-        "wsdltophp/packagebase": "^5.0"
+        "ext-soap": "*"
     },
     "autoload": {
         "psr-4": {"App\\": "src/"}

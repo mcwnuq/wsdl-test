@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for helloResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class HelloResponse extends AbstractStructBase
+class HelloResponse
 {
     /**
      * The out

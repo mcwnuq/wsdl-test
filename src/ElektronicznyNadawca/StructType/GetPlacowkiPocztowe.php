@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getPlacowkiPocztowe StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetPlacowkiPocztowe extends AbstractStructBase
+class GetPlacowkiPocztowe
 {
     /**
      * The idWojewodztwo

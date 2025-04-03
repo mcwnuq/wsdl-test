@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for orderEasyReturnSolutionLabel StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class OrderEasyReturnSolutionLabel extends AbstractStructBase
+class OrderEasyReturnSolutionLabel
 {
     /**
      * The senderAddress

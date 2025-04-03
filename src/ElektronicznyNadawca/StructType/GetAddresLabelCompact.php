@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getAddresLabelCompact StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetAddresLabelCompact extends AbstractStructBase
+class GetAddresLabelCompact
 {
     /**
      * The idEnvelope

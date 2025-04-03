@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for rodzajPrzypisaniaDoJednostkiEnum EnumType
  * @subpackage Enumerations
  */
-class RodzajPrzypisaniaDoJednostkiEnum extends AbstractStructEnumBase
+class RodzajPrzypisaniaDoJednostkiEnum
 {
     /**
      * Constant for value 'RAPORTOWANIE'

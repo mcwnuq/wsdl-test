@@ -7,26 +7,17 @@ namespace App;
 require __DIR__ . '/../vendor/autoload.php';
 
 use App\ElektronicznyNadawca\ClassMap;
-use App\ElektronicznyNadawca\ServiceType\Service;
 use App\ElektronicznyNadawca\StructType\AddShipment;
 use App\ElektronicznyNadawca\StructType\AdresType;
 use App\ElektronicznyNadawca\StructType\EPOExtendedType;
 use App\ElektronicznyNadawca\StructType\Pocztex2021KurierType;
 use App\ElektronicznyNadawca\StructType\ZawartoscPocztex2021Type;
-use WsdlToPhp\PackageBase\AbstractSoapClientBase;
+use SoapClient;
 
 class Test
 {
     public function test()
     {
-        $options = [
-            AbstractSoapClientBase::WSDL_URL => 'https://en-testwebapi.poczta-polska.pl/websrv/en.wsdl',
-            AbstractSoapClientBase::WSDL_CLASSMAP => ClassMap::get(),
-            AbstractSoapClientBase::WSDL_LOCATION => 'https://en-testwebapi.poczta-polska.pl/websrv/en.php',
-        ];
-
-        $service = new Service($options);
-
         $addShipment = new AddShipment(
             [
                 (new Pocztex2021KurierType())
@@ -68,8 +59,20 @@ class Test
             1234
         );
 
-        $service->addShipment($addShipment);
-        var_dump($service->getLastRequest());
+        $wsdl = 'https://en-testwebapi.poczta-polska.pl/websrv/en.wsdl';
+        $options = [
+            'location' => 'https://en-testwebapi.poczta-polska.pl/websrv/en.php',
+            'classmap' => ClassMap::get(),
+            'features' => SOAP_SINGLE_ELEMENT_ARRAYS | SOAP_USE_XSI_ARRAY_TYPE,
+        ];
+
+        $client = new SoapClient($wsdl, $options);
+        try {
+            $client->__soapCall('addShipment', [$addShipment]);
+        } catch (\SoapFault $e) {
+            var_dump($e->getTrace()[0]['args'][0]);
+        }
+//        var_dump($client->__getLastRequest());
     }
 }
 

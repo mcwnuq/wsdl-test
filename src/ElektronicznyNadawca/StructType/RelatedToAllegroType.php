@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for relatedToAllegroType StructType
@@ -13,7 +13,7 @@ use WsdlToPhp\PackageBase\AbstractStructBase;
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class RelatedToAllegroType extends AbstractStructBase
+class RelatedToAllegroType
 {
     /**
      * The id

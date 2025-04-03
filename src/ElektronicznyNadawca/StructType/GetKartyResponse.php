@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getKartyResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetKartyResponse extends AbstractStructBase
+class GetKartyResponse
 {
     /**
      * The karta

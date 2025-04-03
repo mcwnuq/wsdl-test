@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for kategoriePowodowReklamacjiType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class KategoriePowodowReklamacjiType extends AbstractStructBase
+class KategoriePowodowReklamacjiType
 {
     /**
      * The nazwa

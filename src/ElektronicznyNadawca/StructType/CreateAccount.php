@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for createAccount StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class CreateAccount extends AbstractStructBase
+class CreateAccount
 {
     /**
      * The account

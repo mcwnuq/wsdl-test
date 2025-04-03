@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for odbiorPrzesylkiOdNadawcyType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class OdbiorPrzesylkiOdNadawcyType extends AbstractStructBase
+class OdbiorPrzesylkiOdNadawcyType
 {
     /**
      * The wSobote

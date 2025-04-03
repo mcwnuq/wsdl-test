@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for oczekiwanaGodzinaDoreczeniaType EnumType
  * @subpackage Enumerations
  */
-class OczekiwanaGodzinaDoreczeniaType extends AbstractStructEnumBase
+class OczekiwanaGodzinaDoreczeniaType
 {
     /**
      * Constant for value 'DO 08:00'

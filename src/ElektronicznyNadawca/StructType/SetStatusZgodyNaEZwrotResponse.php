@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for setStatusZgodyNaEZwrotResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class SetStatusZgodyNaEZwrotResponse extends AbstractStructBase
+class SetStatusZgodyNaEZwrotResponse
 {
     /**
      * The error

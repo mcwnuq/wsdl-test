@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for awizoPrzesylkiType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class AwizoPrzesylkiType extends AbstractStructBase
+class AwizoPrzesylkiType
 {
     /**
      * The dataPierwszegoAwizowania

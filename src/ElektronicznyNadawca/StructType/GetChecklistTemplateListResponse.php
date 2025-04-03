@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getChecklistTemplateListResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetChecklistTemplateListResponse extends AbstractStructBase
+class GetChecklistTemplateListResponse
 {
     /**
      * The checklistTemplate

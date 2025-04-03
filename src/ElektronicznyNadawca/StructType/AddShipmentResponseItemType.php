@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for addShipmentResponseItemType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class AddShipmentResponseItemType extends AbstractStructBase
+class AddShipmentResponseItemType
 {
     /**
      * The guid

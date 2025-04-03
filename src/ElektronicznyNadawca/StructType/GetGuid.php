@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getGuid StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetGuid extends AbstractStructBase
+class GetGuid
 {
     /**
      * The ilosc

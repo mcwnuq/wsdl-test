@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for PrintKindEnum EnumType
  * @subpackage Enumerations
  */
-class PrintKindEnum extends AbstractStructEnumBase
+class PrintKindEnum
 {
     /**
      * Constant for value 'ADDRESS_LABEL'

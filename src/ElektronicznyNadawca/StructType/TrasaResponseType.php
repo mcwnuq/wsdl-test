@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for trasaResponseType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class TrasaResponseType extends AbstractStructBase
+class TrasaResponseType
 {
     /**
      * The isMiejscowa

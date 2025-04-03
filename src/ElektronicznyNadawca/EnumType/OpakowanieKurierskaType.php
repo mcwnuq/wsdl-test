@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for opakowanieKurierskaType EnumType
  * @subpackage Enumerations
  */
-class OpakowanieKurierskaType extends AbstractStructEnumBase
+class OpakowanieKurierskaType
 {
     /**
      * Constant for value 'FIRMOWA_DO_1KG'

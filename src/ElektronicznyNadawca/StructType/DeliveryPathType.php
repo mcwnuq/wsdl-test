@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for deliveryPathType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class DeliveryPathType extends AbstractStructBase
+class DeliveryPathType
 {
     /**
      * The endNode

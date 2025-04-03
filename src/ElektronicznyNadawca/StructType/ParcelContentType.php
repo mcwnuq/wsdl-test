@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for parcelContentType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class ParcelContentType extends AbstractStructBase
+class ParcelContentType
 {
     /**
      * The IdParcelContent

@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for moveShipmentsResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class MoveShipmentsResponse extends AbstractStructBase
+class MoveShipmentsResponse
 {
     /**
      * The notMovedGuid

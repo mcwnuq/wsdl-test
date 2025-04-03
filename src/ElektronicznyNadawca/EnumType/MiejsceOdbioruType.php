@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for miejsceOdbioruType EnumType
  * @subpackage Enumerations
  */
-class MiejsceOdbioruType extends AbstractStructEnumBase
+class MiejsceOdbioruType
 {
     /**
      * Constant for value 'NADAWCA'

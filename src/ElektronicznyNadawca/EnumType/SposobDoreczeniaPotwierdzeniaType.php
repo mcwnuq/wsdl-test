@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for sposobDoreczeniaPotwierdzeniaType EnumType
  * @subpackage Enumerations
  */
-class SposobDoreczeniaPotwierdzeniaType extends AbstractStructEnumBase
+class SposobDoreczeniaPotwierdzeniaType
 {
     /**
      * Constant for value 'TELEFON'

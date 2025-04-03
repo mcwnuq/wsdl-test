@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for deleteChecklistTemplateResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class DeleteChecklistTemplateResponse extends AbstractStructBase
+class DeleteChecklistTemplateResponse
 {
     /**
      * The error

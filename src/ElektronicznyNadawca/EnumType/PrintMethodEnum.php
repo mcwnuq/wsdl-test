@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for PrintMethodEnum EnumType
  * @subpackage Enumerations
  */
-class PrintMethodEnum extends AbstractStructEnumBase
+class PrintMethodEnum
 {
     /**
      * Constant for value 'EACH_PARCEL_SEPARATELY'

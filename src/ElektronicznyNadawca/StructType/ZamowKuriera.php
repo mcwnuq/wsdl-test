@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for zamowKuriera StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class ZamowKuriera extends AbstractStructBase
+class ZamowKuriera
 {
     /**
      * The miejsceOdbioru

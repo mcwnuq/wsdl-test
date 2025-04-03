@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for deleteShopEZwrotyResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class DeleteShopEZwrotyResponse extends AbstractStructBase
+class DeleteShopEZwrotyResponse
 {
     /**
      * The error

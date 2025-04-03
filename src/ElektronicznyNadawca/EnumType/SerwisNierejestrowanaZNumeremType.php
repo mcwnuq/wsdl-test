@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for serwisNierejestrowanaZNumeremType EnumType
  * @subpackage Enumerations
  */
-class SerwisNierejestrowanaZNumeremType extends AbstractStructEnumBase
+class SerwisNierejestrowanaZNumeremType
 {
     /**
      * Constant for value 'NIEREJESTROWANA'

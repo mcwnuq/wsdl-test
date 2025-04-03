@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for additionalActivityType StructType
@@ -13,7 +13,7 @@ use WsdlToPhp\PackageBase\AbstractStructBase;
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class AdditionalActivityType extends AbstractStructBase
+class AdditionalActivityType
 {
     /**
      * The idActivity

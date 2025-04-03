@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for updateParcelContentResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class UpdateParcelContentResponse extends AbstractStructBase
+class UpdateParcelContentResponse
 {
     /**
      * The error

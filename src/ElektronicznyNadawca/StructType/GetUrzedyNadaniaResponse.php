@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getUrzedyNadaniaResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetUrzedyNadaniaResponse extends AbstractStructBase
+class GetUrzedyNadaniaResponse
 {
     /**
      * The urzedyNadania

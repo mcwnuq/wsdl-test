@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for miejscaPozostawieniaAwizoEnum EnumType
  * @subpackage Enumerations
  */
-class MiejscaPozostawieniaAwizoEnum extends AbstractStructEnumBase
+class MiejscaPozostawieniaAwizoEnum
 {
     /**
      * Constant for value 'SKRZYNKA_ODDAWCZA'

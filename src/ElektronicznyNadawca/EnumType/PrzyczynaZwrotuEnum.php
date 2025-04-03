@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for przyczynaZwrotuEnum EnumType
  * @subpackage Enumerations
  */
-class PrzyczynaZwrotuEnum extends AbstractStructEnumBase
+class PrzyczynaZwrotuEnum
 {
     /**
      * Constant for value 'ODMOWA'

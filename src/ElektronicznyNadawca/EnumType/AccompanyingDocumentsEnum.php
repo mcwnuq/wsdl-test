@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for AccompanyingDocumentsEnum EnumType
  * @subpackage Enumerations
  */
-class AccompanyingDocumentsEnum extends AbstractStructEnumBase
+class AccompanyingDocumentsEnum
 {
     /**
      * Constant for value 'LICENSE'

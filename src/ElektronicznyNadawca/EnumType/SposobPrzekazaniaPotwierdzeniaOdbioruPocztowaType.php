@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for sposobPrzekazaniaPotwierdzeniaOdbioruPocztowaType EnumType
  * @subpackage Enumerations
  */
-class SposobPrzekazaniaPotwierdzeniaOdbioruPocztowaType extends AbstractStructEnumBase
+class SposobPrzekazaniaPotwierdzeniaOdbioruPocztowaType
 {
     /**
      * Constant for value 'EKSPRES24'

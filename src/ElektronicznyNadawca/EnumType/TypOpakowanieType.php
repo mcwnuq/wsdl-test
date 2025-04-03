@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for typOpakowanieType EnumType
  * @subpackage Enumerations
  */
-class TypOpakowanieType extends AbstractStructEnumBase
+class TypOpakowanieType
 {
     /**
      * Constant for value 'KL1'

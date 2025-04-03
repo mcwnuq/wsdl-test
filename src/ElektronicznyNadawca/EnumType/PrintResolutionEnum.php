@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for PrintResolutionEnum EnumType
  * @subpackage Enumerations
  */
-class PrintResolutionEnum extends AbstractStructEnumBase
+class PrintResolutionEnum
 {
     /**
      * Constant for value 'DPI_300'

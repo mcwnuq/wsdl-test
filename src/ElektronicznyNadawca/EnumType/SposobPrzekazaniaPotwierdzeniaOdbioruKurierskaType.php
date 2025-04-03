@@ -4,14 +4,13 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for sposobPrzekazaniaPotwierdzeniaOdbioruKurierskaType
  * EnumType
  * @subpackage Enumerations
  */
-class SposobPrzekazaniaPotwierdzeniaOdbioruKurierskaType extends AbstractStructEnumBase
+class SposobPrzekazaniaPotwierdzeniaOdbioruKurierskaType
 {
     /**
      * Constant for value 'MIEJSKI_DO_3H_DO_5KM'

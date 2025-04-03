@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for shipmentChannelPocztex2021Enum EnumType
  * @subpackage Enumerations
  */
-class ShipmentChannelPocztex2021Enum extends AbstractStructEnumBase
+class ShipmentChannelPocztex2021Enum
 {
     /**
      * Constant for value 'PP'

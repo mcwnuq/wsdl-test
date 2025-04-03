@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for CustomsDeclarationType StructType
@@ -15,7 +15,7 @@ use WsdlToPhp\PackageBase\AbstractStructBase;
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class CustomsDeclarationType extends AbstractStructBase
+class CustomsDeclarationType
 {
     /**
      * The content

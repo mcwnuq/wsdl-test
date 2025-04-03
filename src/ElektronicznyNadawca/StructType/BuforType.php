@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for buforType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class BuforType extends AbstractStructBase
+class BuforType
 {
     /**
      * The profil

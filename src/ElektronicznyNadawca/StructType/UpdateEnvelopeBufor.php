@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for updateEnvelopeBufor StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class UpdateEnvelopeBufor extends AbstractStructBase
+class UpdateEnvelopeBufor
 {
     /**
      * The bufor

@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for typOplacaOdbiorcaEnum EnumType
  * @subpackage Enumerations
  */
-class TypOplacaOdbiorcaEnum extends AbstractStructEnumBase
+class TypOplacaOdbiorcaEnum
 {
     /**
      * Constant for value 'ADRESAT_INDYWIDUALNY'

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for formatPocztex2021Type EnumType
@@ -12,7 +11,7 @@ use WsdlToPhp\PackageBase\AbstractStructEnumBase;
  * - documentation: Format przesyłki:S - M - L - XL - 2XL -
  * @subpackage Enumerations
  */
-class FormatPocztex2021Type extends AbstractStructEnumBase
+class FormatPocztex2021Type
 {
     /**
      * Constant for value 'S'

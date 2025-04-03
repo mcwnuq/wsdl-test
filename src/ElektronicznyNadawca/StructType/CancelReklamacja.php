@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for cancelReklamacja StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class CancelReklamacja extends AbstractStructBase
+class CancelReklamacja
 {
     /**
      * The idRelkamacja

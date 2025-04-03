@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getFirmowaPocztaBookResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetFirmowaPocztaBookResponse extends AbstractStructBase
+class GetFirmowaPocztaBookResponse
 {
     /**
      * The pdfContent

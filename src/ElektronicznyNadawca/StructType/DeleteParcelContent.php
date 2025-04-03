@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for deleteParcelContent StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class DeleteParcelContent extends AbstractStructBase
+class DeleteParcelContent
 {
     /**
      * The parcelContent

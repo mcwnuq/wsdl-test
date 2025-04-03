@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for setAktywnaKartaResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class SetAktywnaKartaResponse extends AbstractStructBase
+class SetAktywnaKartaResponse
 {
     /**
      * The error

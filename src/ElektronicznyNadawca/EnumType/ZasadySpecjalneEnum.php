@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for zasadySpecjalneEnum EnumType
  * @subpackage Enumerations
  */
-class ZasadySpecjalneEnum extends AbstractStructEnumBase
+class ZasadySpecjalneEnum
 {
     /**
      * Constant for value 'ADMINISTRACYJNA'

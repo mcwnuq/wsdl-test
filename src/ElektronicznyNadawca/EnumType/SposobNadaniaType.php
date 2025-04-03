@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for sposobNadaniaType EnumType
  * @subpackage Enumerations
  */
-class SposobNadaniaType extends AbstractStructEnumBase
+class SposobNadaniaType
 {
     /**
      * Constant for value 'WERYFIKACJA_WEZEL_DOCELOWY'

@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getAdditionalActivitiesList StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetAdditionalActivitiesList extends AbstractStructBase
+class GetAdditionalActivitiesList
 {
     /**
      * The idKarta

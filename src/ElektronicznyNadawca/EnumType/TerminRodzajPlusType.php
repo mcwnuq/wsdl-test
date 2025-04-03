@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for terminRodzajPlusType EnumType
  * @subpackage Enumerations
  */
-class TerminRodzajPlusType extends AbstractStructEnumBase
+class TerminRodzajPlusType
 {
     /**
      * Constant for value 'PORANEK'

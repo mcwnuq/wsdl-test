@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for terminZwrotDokumentowKurierskaType EnumType
  * @subpackage Enumerations
  */
-class TerminZwrotDokumentowKurierskaType extends AbstractStructEnumBase
+class TerminZwrotDokumentowKurierskaType
 {
     /**
      * Constant for value 'MIEJSKI_DO_3H_DO_5KM'

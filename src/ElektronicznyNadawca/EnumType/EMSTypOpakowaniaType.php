@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for EMSTypOpakowaniaType EnumType
  * @subpackage Enumerations
  */
-class EMSTypOpakowaniaType extends AbstractStructEnumBase
+class EMSTypOpakowaniaType
 {
     /**
      * Constant for value 'ZWYKLY'

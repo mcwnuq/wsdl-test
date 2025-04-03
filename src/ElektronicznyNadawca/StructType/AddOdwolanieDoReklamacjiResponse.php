@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for addOdwolanieDoReklamacjiResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class AddOdwolanieDoReklamacjiResponse extends AbstractStructBase
+class AddOdwolanieDoReklamacjiResponse
 {
     /**
      * The error

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for formatType EnumType
@@ -13,7 +12,7 @@ use WsdlToPhp\PackageBase\AbstractStructEnumBase;
  * koperty [mm]: 900. Maksymalna długość najdłuższego boku [mm]: 600 Rulony Maksymalna waga [g]: 2000
  * @subpackage Enumerations
  */
-class FormatType extends AbstractStructEnumBase
+class FormatType
 {
     /**
      * Constant for value 'S'

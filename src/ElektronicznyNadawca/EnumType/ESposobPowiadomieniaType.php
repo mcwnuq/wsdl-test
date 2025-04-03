@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for eSposobPowiadomieniaType EnumType
  * @subpackage Enumerations
  */
-class ESposobPowiadomieniaType extends AbstractStructEnumBase
+class ESposobPowiadomieniaType
 {
     /**
      * Constant for value 'SMS'

@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for powodReklamacjiType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class PowodReklamacjiType extends AbstractStructBase
+class PowodReklamacjiType
 {
     /**
      * The powodSzczegolowy

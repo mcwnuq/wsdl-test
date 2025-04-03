@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for dataZlozeniaType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class DataZlozeniaType extends AbstractStructBase
+class DataZlozeniaType
 {
     /**
      * The od

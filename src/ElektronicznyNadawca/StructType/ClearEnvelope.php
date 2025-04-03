@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for clearEnvelope StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class ClearEnvelope extends AbstractStructBase
+class ClearEnvelope
 {
     /**
      * The idBufor

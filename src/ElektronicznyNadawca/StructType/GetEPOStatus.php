@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getEPOStatus StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetEPOStatus extends AbstractStructBase
+class GetEPOStatus
 {
     /**
      * The guid

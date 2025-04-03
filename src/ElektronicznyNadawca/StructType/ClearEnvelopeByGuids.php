@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for clearEnvelopeByGuids StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class ClearEnvelopeByGuids extends AbstractStructBase
+class ClearEnvelopeByGuids
 {
     /**
      * The guid

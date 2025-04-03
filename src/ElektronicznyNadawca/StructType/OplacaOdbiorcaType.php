@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for oplacaOdbiorcaType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class OplacaOdbiorcaType extends AbstractStructBase
+class OplacaOdbiorcaType
 {
     /**
      * The typ

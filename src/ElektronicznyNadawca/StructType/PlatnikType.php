@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for platnikType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class PlatnikType extends AbstractStructBase
+class PlatnikType
 {
     /**
      * The uiszczaOplate

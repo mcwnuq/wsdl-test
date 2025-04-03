@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for eZwrotTypZgodyType EnumType
  * @subpackage Enumerations
  */
-class EZwrotTypZgodyType extends AbstractStructEnumBase
+class EZwrotTypZgodyType
 {
     /**
      * Constant for value 'ZGODA_BRAK'

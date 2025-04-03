@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for podmiotDoreczeniaEnum EnumType
  * @subpackage Enumerations
  */
-class PodmiotDoreczeniaEnum extends AbstractStructEnumBase
+class PodmiotDoreczeniaEnum
 {
     /**
      * Constant for value 'ADRESAT'

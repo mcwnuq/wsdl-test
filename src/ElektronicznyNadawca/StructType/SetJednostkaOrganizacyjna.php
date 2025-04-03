@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for setJednostkaOrganizacyjna StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class SetJednostkaOrganizacyjna extends AbstractStructBase
+class SetJednostkaOrganizacyjna
 {
     /**
      * The jednostkaOrganizacyjna

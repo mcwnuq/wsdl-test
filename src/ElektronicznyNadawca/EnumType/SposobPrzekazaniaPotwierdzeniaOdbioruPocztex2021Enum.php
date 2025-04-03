@@ -4,14 +4,13 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for sposobPrzekazaniaPotwierdzeniaOdbioruPocztex2021Enum
  * EnumType
  * @subpackage Enumerations
  */
-class SposobPrzekazaniaPotwierdzeniaOdbioruPocztex2021Enum extends AbstractStructEnumBase
+class SposobPrzekazaniaPotwierdzeniaOdbioruPocztex2021Enum
 {
     /**
      * Constant for value 'POCZTEX_KURIER'

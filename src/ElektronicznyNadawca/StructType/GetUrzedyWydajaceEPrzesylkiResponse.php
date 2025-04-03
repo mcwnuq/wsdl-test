@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getUrzedyWydajaceEPrzesylkiResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetUrzedyWydajaceEPrzesylkiResponse extends AbstractStructBase
+class GetUrzedyWydajaceEPrzesylkiResponse
 {
     /**
      * The urzadWydaniaEPrzesylki

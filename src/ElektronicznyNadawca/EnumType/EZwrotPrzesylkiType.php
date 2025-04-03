@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for eZwrotPrzesylkiType EnumType
  * @subpackage Enumerations
  */
-class EZwrotPrzesylkiType extends AbstractStructEnumBase
+class EZwrotPrzesylkiType
 {
     /**
      * Constant for value 'ZWROTPACZKA48'

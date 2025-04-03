@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getEnvelopeContentFullResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetEnvelopeContentFullResponse extends AbstractStructBase
+class GetEnvelopeContentFullResponse
 {
     /**
      * The przesylka

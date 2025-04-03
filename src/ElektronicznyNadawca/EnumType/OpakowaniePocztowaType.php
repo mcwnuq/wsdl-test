@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for opakowaniePocztowaType EnumType
  * @subpackage Enumerations
  */
-class OpakowaniePocztowaType extends AbstractStructEnumBase
+class OpakowaniePocztowaType
 {
     /**
      * Constant for value 'PACZKA_DO_POL_KILO'

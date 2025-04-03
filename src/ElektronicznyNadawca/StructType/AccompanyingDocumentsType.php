@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for AccompanyingDocumentsType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class AccompanyingDocumentsType extends AbstractStructBase
+class AccompanyingDocumentsType
 {
     /**
      * The type

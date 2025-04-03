@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for funkcjaPlacowkiPocztowejType EnumType
  * @subpackage Enumerations
  */
-class FunkcjaPlacowkiPocztowejType extends AbstractStructEnumBase
+class FunkcjaPlacowkiPocztowejType
 {
     /**
      * Constant for value 'NADAWCZA'

@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for relatedToAllegroChannelType EnumType
  * @subpackage Enumerations
  */
-class RelatedToAllegroChannelType extends AbstractStructEnumBase
+class RelatedToAllegroChannelType
 {
     /**
      * Constant for value 'MS'

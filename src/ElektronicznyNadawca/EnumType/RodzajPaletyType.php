@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for rodzajPaletyType EnumType
  * @subpackage Enumerations
  */
-class RodzajPaletyType extends AbstractStructEnumBase
+class RodzajPaletyType
 {
     /**
      * Constant for value 'EUR'

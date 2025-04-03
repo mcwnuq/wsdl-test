@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for zawartoscSpecjalnaEnum EnumType
  * @subpackage Enumerations
  */
-class ZawartoscSpecjalnaEnum extends AbstractStructEnumBase
+class ZawartoscSpecjalnaEnum
 {
     /**
      * Constant for value 'OWADY'

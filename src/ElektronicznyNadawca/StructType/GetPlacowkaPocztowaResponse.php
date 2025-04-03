@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getPlacowkaPocztowaResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetPlacowkaPocztowaResponse extends AbstractStructBase
+class GetPlacowkaPocztowaResponse
 {
     /**
      * The placowka

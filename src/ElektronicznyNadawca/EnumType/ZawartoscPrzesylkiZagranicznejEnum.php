@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for ZawartoscPrzesylkiZagranicznejEnum EnumType
  * @subpackage Enumerations
  */
-class ZawartoscPrzesylkiZagranicznejEnum extends AbstractStructEnumBase
+class ZawartoscPrzesylkiZagranicznejEnum
 {
     /**
      * Constant for value 'SPRZEDAZ_TOWARU'

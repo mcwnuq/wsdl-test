@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for sposobPobraniaType EnumType
  * @subpackage Enumerations
  */
-class SposobPobraniaType extends AbstractStructEnumBase
+class SposobPobraniaType
 {
     /**
      * Constant for value 'PRZEKAZ'

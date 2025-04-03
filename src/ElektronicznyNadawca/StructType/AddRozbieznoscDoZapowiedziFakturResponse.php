@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for addRozbieznoscDoZapowiedziFakturResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class AddRozbieznoscDoZapowiedziFakturResponse extends AbstractStructBase
+class AddRozbieznoscDoZapowiedziFakturResponse
 {
     /**
      * The error

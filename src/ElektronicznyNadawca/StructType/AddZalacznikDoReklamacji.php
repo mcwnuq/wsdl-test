@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for addZalacznikDoReklamacji StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class AddZalacznikDoReklamacji extends AbstractStructBase
+class AddZalacznikDoReklamacji
 {
     /**
      * The idReklamacja

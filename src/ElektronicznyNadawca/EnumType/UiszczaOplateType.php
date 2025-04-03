@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for uiszczaOplateType EnumType
  * @subpackage Enumerations
  */
-class UiszczaOplateType extends AbstractStructEnumBase
+class UiszczaOplateType
 {
     /**
      * Constant for value 'NADAWCA'

@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for statusZgodyEZwrotNameType EnumType
  * @subpackage Enumerations
  */
-class StatusZgodyEZwrotNameType extends AbstractStructEnumBase
+class StatusZgodyEZwrotNameType
 {
     /**
      * Constant for value 'NOWY'

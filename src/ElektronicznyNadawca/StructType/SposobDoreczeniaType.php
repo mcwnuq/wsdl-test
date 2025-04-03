@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for sposobDoreczeniaType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class SposobDoreczeniaType extends AbstractStructBase
+class SposobDoreczeniaType
 {
     /**
      * The kod

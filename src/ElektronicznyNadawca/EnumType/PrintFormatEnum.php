@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for PrintFormatEnum EnumType
  * @subpackage Enumerations
  */
-class PrintFormatEnum extends AbstractStructEnumBase
+class PrintFormatEnum
 {
     /**
      * Constant for value 'PDF_FORMAT'

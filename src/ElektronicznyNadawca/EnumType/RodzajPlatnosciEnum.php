@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for rodzajPlatnosciEnum EnumType
  * @subpackage Enumerations
  */
-class RodzajPlatnosciEnum extends AbstractStructEnumBase
+class RodzajPlatnosciEnum
 {
     /**
      * Constant for value 'BLIK'

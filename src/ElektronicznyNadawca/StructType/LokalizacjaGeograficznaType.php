@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for lokalizacjaGeograficznaType StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class LokalizacjaGeograficznaType extends AbstractStructBase
+class LokalizacjaGeograficznaType
 {
     /**
      * The dlugosc

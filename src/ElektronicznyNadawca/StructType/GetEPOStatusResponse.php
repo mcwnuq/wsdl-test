@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\StructType;
 
-use WsdlToPhp\PackageBase\AbstractStructBase;
+
 
 /**
  * This class stands for getEPOStatusResponse StructType
  * @subpackage Structs
  */
 #[\AllowDynamicProperties]
-class GetEPOStatusResponse extends AbstractStructBase
+class GetEPOStatusResponse
 {
     /**
      * The epo

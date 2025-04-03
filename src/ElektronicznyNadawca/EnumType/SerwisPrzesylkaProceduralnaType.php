@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace App\ElektronicznyNadawca\EnumType;
 
-use WsdlToPhp\PackageBase\AbstractStructEnumBase;
 
 /**
  * This class stands for serwisPrzesylkaProceduralnaType EnumType
  * @subpackage Enumerations
  */
-class SerwisPrzesylkaProceduralnaType extends AbstractStructEnumBase
+class SerwisPrzesylkaProceduralnaType
 {
     /**
      * Constant for value 'PROCEDURALNA_STANDARD_DWA_STOPNIE'
